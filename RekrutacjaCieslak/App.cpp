@@ -1,7 +1,6 @@
 #include "App.h"
 #include "CSVparser.h"
 
-
 App::App(std::string inputFile, std::string outputFile)
 {
 	InputFile = inputFile;

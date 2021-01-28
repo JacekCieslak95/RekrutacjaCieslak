@@ -17,4 +17,3 @@ private:
 	MathematicalOperationFactory() {};
 	inline static MathematicalOperationFactory* instance = nullptr;;
 };
-

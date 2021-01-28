@@ -1,9 +1,10 @@
 #pragma once
-#include <string>
-#include <vector>
 
 #include "AbstractMathematicalOperation.h"
 #include "Matrix.h"
+
+#include <string>
+#include <vector>
 
 class MatrixAddition : public AbstractMathematicalOperation
 {

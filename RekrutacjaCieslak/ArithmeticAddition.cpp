@@ -1,9 +1,9 @@
+#include "ArithmeticAddition.h"
+
 #include <numeric>
 #include <stdexcept>
 
-#include "ArithmeticAddition.h"
-
-ArithmeticAddition::ArithmeticAddition(){}
+ArithmeticAddition::ArithmeticAddition() {}
 std::string ArithmeticAddition::GetClassName() { return Name; }
 
 std::string ArithmeticAddition::Proceed()

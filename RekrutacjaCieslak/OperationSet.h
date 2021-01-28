@@ -15,7 +15,6 @@ struct OperationDetails
 	std::vector<std::string> ToStringVector();
 };
 
-
 class OperationSet
 {
 public:
@@ -24,4 +23,3 @@ public:
 	OperationDetails Details;
 	AbstractMathematicalOperation* Operation;
 };
-

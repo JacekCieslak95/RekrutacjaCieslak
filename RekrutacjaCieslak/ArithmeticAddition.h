@@ -1,8 +1,9 @@
 #pragma once
-#include <string>
-#include <vector>
 
 #include "AbstractMathematicalOperation.h"
+
+#include <string>
+#include <vector>
 
 class ArithmeticAddition : public AbstractMathematicalOperation
 {

@@ -1,11 +1,11 @@
 #pragma once
-#include <string>
-#include <vector>
-#include <memory>
 
 #include "MathematicalOperationFactory.h"
 #include "OperationSet.h"
 
+#include <string>
+#include <vector>
+#include <memory>
 class App
 {
 public:
@@ -17,9 +17,8 @@ private:
 	std::string OutputFile;
 
 	std::vector<std::shared_ptr<OperationSet>> Operations;
-	
+
 	void ReadOperationsFromFile();
 	void CalculateOperations();
 	void StoreOperationsToFile();
 };
-

@@ -14,4 +14,3 @@ private:
 	inline static CSVparser* instance = nullptr;;
 	std::vector<std::string> ParseLine(std::string line);
 };
-

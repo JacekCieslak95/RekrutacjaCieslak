@@ -1,10 +1,10 @@
+#include "ArithmeticMultiplication.h"
+
 #include <numeric>
 #include <stdexcept>
 #include <functional>
 
-#include "ArithmeticMultiplication.h"
-
-ArithmeticMultiplication::ArithmeticMultiplication(){}
+ArithmeticMultiplication::ArithmeticMultiplication() {}
 std::string ArithmeticMultiplication::GetClassName() { return Name; }
 
 std::string ArithmeticMultiplication::Proceed()

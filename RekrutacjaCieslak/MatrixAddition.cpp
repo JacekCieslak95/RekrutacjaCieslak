@@ -1,8 +1,8 @@
-#include <stdexcept>
-
 #include "MatrixAddition.h"
 
-MatrixAddition::MatrixAddition(){}
+#include <stdexcept>
+
+MatrixAddition::MatrixAddition() {}
 std::string MatrixAddition::GetClassName() { return Name; }
 
 std::string MatrixAddition::Proceed()
@@ -58,7 +58,6 @@ bool MatrixAddition::IfSameSize(std::vector<Matrix> matrixes)
 			return false;
 	}
 	return true;
-	
 }
 bool MatrixAddition::IfSameSize(Matrix* A, Matrix* B)
 {
